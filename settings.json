@@ -1,0 +1,6 @@
+{
+    "java.format.settings.url": "~/dotfiles/stow/code/.config/Code/format_spec/java.xml",
+    "java.checkstyle.configuration": "/home/valerius/dotfiles/stow/code/.config/Code/checkstyle/java.xml",
+    "java.checkstyle.autocheck": true,
+    "checkstyle.configurationPath": "/home/valerius/dotfiles/stow/code/.config/Code/checkstyle/java.xml"
+}

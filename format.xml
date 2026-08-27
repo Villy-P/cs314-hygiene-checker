@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- This formatting file is written to adhere to the CS 314 Hygiene Guide found here: -->
+<!-- https://www.cs.utexas.edu/~scottm/cs314/handouts/hygiene_guide/code_hygiene_guide_framed.html -->
+<profiles version="23">
+    <profile kind="CodeFormatterProfile" name="Custom-Java-Rules" version="23">
+        <!-- 3.1 Indentation -->
+        <setting id="org.eclipse.jdt.core.formatter.tabulation.char" value="space"/>
+        <setting id="org.eclipse.jdt.core.formatter.tabulation.size" value="4"/>
+        <setting id="org.eclipse.jdt.core.formatter.brace_position_for_block" value="end_of_line"/>
+        <setting id="org.eclipse.jdt.core.formatter.brace_position_for_method_declaration" value="end_of_line"/>
+        <setting id="org.eclipse.jdt.core.formatter.brace_position_for_type_declaration" value="end_of_line"/>
+        
+        <!-- 3.4 Column limit and line wrapping -->
+        <setting id="org.eclipse.jdt.core.formatter.lineSplit" value="100"/>
+    </profile>
+</profiles>
