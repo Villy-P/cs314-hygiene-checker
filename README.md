@@ -52,7 +52,7 @@ Most of them are due to being too vague or too difficult for a program to check.
 * 3.5 Exceptions, especially for failure to meet preconditions
 * 3.6 Curly braces [Preferred, but you can use alternative brace styles]
 * 3.8 Remove unnecessary and unneeded code
-* 4. Commenting - Every Rule
+* 4 Commenting - Every Rule
 * 5.1 - Every Rule
 * 5.2 - Every Rule
 * 5.3 - Every Rule
@@ -61,7 +61,13 @@ Most of them are due to being too vague or too difficult for a program to check.
 * 5.8 Remove unnecessary and unneeded code - REPEATED
 * 6.2 Descriptiveness
 * 6.3 Method names
-* 7. Data Types - Every Rule
-* 8. Efficiency and Redundancy
+* 7 Data Types - Every Rule
+* 8 Efficiency and Redundancy
+* 9.2 Loop Zen
+* 9.3 Recursion Zen
 
 If you would like to try and implement them, open a PR, and make sure that the rule is as restrictive as possible.
+
+## Contributing
+
+To contriuting, please fork the repository and write your changes. Make sure you follow conventional commits and write the proper test cases (if applicable) in `Test.java`.

@@ -78,7 +78,8 @@
             <property name="format" value="^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$"/>
         </module>
 
-        <!-- Disable writing == true -->
-        <module name="SimplifyBooleanExpression"/> 
+        <!-- 9.1 Boolean Zen -->
+        <module name="SimplifyBooleanExpression"/>
+        <module name="SimplifyBooleanReturn"/> 
     </module>
 </module>
