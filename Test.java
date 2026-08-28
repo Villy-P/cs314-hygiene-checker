@@ -46,10 +46,23 @@ public class Test {
     // 6.1 Casting
     class WRONG_CLASS_REGEX {}
     public int WRONG_VAR_REGEX;
-    public boolean WRONG_METHOD_REGEX() {
+    public void WRONG_METHOD_REGEX() {
         int WRONG;
+    }
+    public static final int WRONG_FINAL_REGEX = 0;
 
+    public boolean anotherMethod() {
         boolean bool = true;
+        
+        // 10.1 Avoid the use of break and continue, especially on assignments
+        for (int i = 0; i < 1; i++) {
+            if (bool) {
+                continue;
+            } else {
+                break;
+            }
+        }
+
         // 9.1 Boolean Zen
         if (bool == true) {
             return true;
@@ -57,5 +70,4 @@ public class Test {
             return false;
         }
     }
-    public static final int WRONG_FINAL_REGEX = 0;
 }

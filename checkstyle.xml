@@ -81,5 +81,12 @@
         <!-- 9.1 Boolean Zen -->
         <module name="SimplifyBooleanExpression"/>
         <module name="SimplifyBooleanReturn"/> 
+
+        <!-- 10.1 Avoid the use of break and continue, especially on assignments -->
+        <module name="IllegalToken">
+            <property name="tokens" value="LITERAL_BREAK, LITERAL_CONTINUE"/>
+            <property name="tokens" value="LITERAL_BREAK, LITERAL_CONTINUE"/>
+        </module>
+
     </module>
 </module>
