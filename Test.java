@@ -3,7 +3,7 @@ package NOPACKAGES;
 
 // 2.2 Import Statements
 import java.util.*;
-import java.util.UUID;
+
 import sun.swing.UIAction;
 
 public class Test {
@@ -69,5 +69,17 @@ public class Test {
         } else {
             return false;
         }
+    }
+
+    // 10.2 Do not return from void method
+    public void voidMethod() {
+        // 10.5 Do not use try / catch blocks to deal with avoidable logic errors.
+        try {
+            int i = 0;
+        } catch (Exception e) {
+            System.err.println("Oh No!");
+        }
+
+        return;
     }
 }

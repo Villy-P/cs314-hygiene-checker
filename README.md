@@ -65,6 +65,8 @@ Most of them are due to being too vague or too difficult for a program to check.
 * 8 Efficiency and Redundancy
 * 9.2 Loop Zen
 * 9.3 Recursion Zen
+* 10.3 Do not use Java 8+ functional features.
+* 10.4 Do not use Java 11+ local variable type inference
 
 If you would like to try and implement them, open a PR, and make sure that the rule is as restrictive as possible.
 

@@ -85,8 +85,16 @@
         <!-- 10.1 Avoid the use of break and continue, especially on assignments -->
         <module name="IllegalToken">
             <property name="tokens" value="LITERAL_BREAK, LITERAL_CONTINUE"/>
-            <property name="tokens" value="LITERAL_BREAK, LITERAL_CONTINUE"/>
         </module>
 
+        <!-- 10.2 Do not return from void method -->
+        <module name="ReturnCount">
+            <property name="maxForVoid" value="0"/>
+        </module>
+
+        <!-- 10.5 Do not use try / catch blocks to deal with avoidable logic errors. -->
+        <module name="IllegalToken">
+            <property name="tokens" value="LITERAL_TRY, LITERAL_CATCH"/>
+        </module>
     </module>
 </module>
