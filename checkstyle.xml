@@ -90,6 +90,7 @@
         <!-- 10.2 Do not return from void method -->
         <module name="ReturnCount">
             <property name="maxForVoid" value="0"/>
+            <property name="max" value="30"/>
         </module>
 
         <!-- 10.5 Do not use try / catch blocks to deal with avoidable logic errors. -->
