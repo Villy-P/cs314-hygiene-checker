@@ -40,6 +40,22 @@ There are two main ways that we check against the hygiene guide:
   * Found at [`format.xml`].
   * This is used to make sure your code is formatted correctly, and can be setup to automatically format your code.
 
+## Ignore Checks
+
+To ignore specific checks, you can surround the error in comments to enable/disable checkstyle:
+
+``` java
+// CHECKSTYLE:OFF
+public void method() {} // All errors in here will be ignored
+// CHECKSTYLE:ON
+
+// CHECKSTYLE.OFF: MagicNumber
+public void method() {} // All Magic Number errors will be ignored
+// CHECKSTYLE.ON: MagicNumber
+```
+
+Be sure to remove the comments once you're done
+
 ## Unsupported Checks
 
 This is a list of all checks that cannot be verified by either the linter or the formatter.
